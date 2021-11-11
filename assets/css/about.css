@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+body {
+    background-image: linear-gradient(rgba(230, 163, 20, 0.671), rgba(187, 99, 17, 0.7));
+
+    background-size: cover;
+    background-repeat: no-repeat center fixed;
+}
+.header {
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(../images/IMG_1785.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    min-height: 70vh;
+}
+.nav-links {
+    text-align: right;
+    flex: 1.5;
+}
+.nav-links ul li {
+    display: inline-block;
+    position: relative;
+    list-style-type: none;
+    padding: 8px 12px;
+    font-size: 13px;
+    font-weight: 300;
+    color: white;
+    cursor: pointer;
+}
+.nav-links ul li a {
+    color: white;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.nav-links ul li:hover {
+    font-size: 25px;
+    font-weight: 500;
+    color: grey;
+}
+.row {
+    display: flex;
+    justify-content: space-between;
+    margin: 5%;
+}
+.second-col {
+    padding: 20px 12px;
+    box-sizing: border-box;
+    flex-basis: 35%;
+}
+.header h2 {
+    top: 50%;
+    left: 48%;
+    justify-content: center;
+    width: 80%;
+    color: white;
+    position: absolute;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.aboutus {
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    color: black;
+    padding-top: 25px;
+}
